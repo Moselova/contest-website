@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="dashboard.css" />
+	</head>
+	<body>
+		<div class="page">
+			<div id="Container" class="container">
+				<div class="fixed-nav">
+					<div class="navbar">
+						<div class="page-title">
+							<h1>DASHBOARD</h1>
+						</div>
+						<div class="user-ctn">
+							<p>Hello, stella</p>
+							<img src="icons/image 1.svg" />
+							<img
+								onclick="openNav()"
+								src="icons/Arrow - Down 2.svg"
+							/>
+						</div>
+					</div>
+				</div>
+				<div class="inner-ctn">
+					<div class="recta-div">
+						<div class="text-flex">
+							<div class="textdiv">
+								<p>Total users</p>
+								<h2>700</h2>
+							</div>
+							<div class="textdiv">
+								<p>Total Contests</p>
+								<h2>100</h2>
+							</div>
+							<div class="textdiv">
+								<p>Total Active contestss</p>
+								<h2>200</h2>
+							</div>
+							<div class="textdiv">
+								<p>Total Winners</p>
+								<h2>200</h2>
+							</div>
+						</div>
+					</div>
+					<div class="recta-div">
+						<div class="text-flex">
+							<div class="textdiv">
+								<p>Total Price</p>
+								<h2>700</h2>
+							</div>
+							<div class="textdiv">
+								<p>Total Price won by contenstants</p>
+								<h2>100</h2>
+							</div>
+							<div class="textdiv">
+								<p>Total Entry Cost</p>
+								<h2>200</h2>
+							</div>
+							<div class="textdiv">
+								<p>Total Losers</p>
+								<h2>200</h2>
+							</div>
+						</div>
+					</div>
+					<div class="second-rec">
+						<form>
+							<div class="text-wrapper">
+								<p>what are you looking for ?</p>
+								<p>Registration Date</p>
+							</div>
+							<div class="input-div">
+								<div class="search-div">
+									<img
+										class="search-img"
+										src="icons/search.svg"
+										width="18px"
+										height="18px"
+									/>
+									<input
+										type="search"
+										class="search"
+										placeholder="Search..."
+									/>
+								</div>
+								<input
+									placeholder="From Date"
+									class="date"
+									type="text"
+									onfocus="(this.type='date')"
+									id="date"
+								/>
+								<input
+									placeholder="To Date "
+									class="date"
+									type="text"
+									onfocus="(this.type='date')"
+									id="date"
+								/>
+								<button class="refine-search">
+									Refine Search
+								</button>
+								<p class="clear">Clear Filters</p>
+							</div>
+						</form>
+					</div>
+					<div class="big-rec">
+						<table>
+							<tr>
+								<th>User Id</th>
+								<th>Username</th>
+								<th>Contest name</th>
+								<th>Total Price</th>
+								<th>Start Date/Time</th>
+								<th>Contest Status</th>
+								<th></th>
+							</tr>
+							<tr>
+								<td>#18319</td>
+								<td>Mr Sorosoke</td>
+								<td>Midnight Contest</td>
+								<td>N300,000</td>
+								<td>16 Apr 2021, 00:00</td>
+								<td class="active">Active</td>
+								<td>
+									<a href="dashboard2.html"><img src="icons/Arrow - Right Circle.svg" /></a>
+								</td>
+							</tr>
+							<tr>
+								<td>#1820</td>
+								<td>Sukrebaba</td>
+								<td>Midday Contest</td>
+								<td>N800,000</td>
+								<td>26 Oct-2020, 00:00</td>
+								<td class="completed">Completed</td>
+								<td>
+									<img src="icons/Arrow - Right Circle.svg" />
+								</td>
+							</tr>
+							<tr>
+								<td>#18314</td>
+								<td>Slyqueen</td>
+								<td>Night Time Contest</td>
+								<td>N50,000</td>
+								<td>09 Oct 2020, 00:00</td>
+								<td class="active">Active</td>
+								<td>
+									<img src="icons/Arrow - Right Circle.svg" />
+								</td>
+							</tr>
+							<tr>
+								<td>#13219</td>
+								<td>Twitterman</td>
+								<td>Independence Contest</td>
+								<td>N750,000</td>
+								<td>01 May 2021, 00:00</td>
+								<td class="completed">Completed</td>
+								<td>
+									<img src="icons/Arrow - Right Circle.svg" />
+								</td>
+							</tr>
+							<tr>
+								<td>#18310</td>
+								<td>Alayebambam</td>
+								<td>Weekend Contest</td>
+								<td>N90,000</td>
+								<td>09 Jun 2021, 00:00</td>
+								<td class="active">Active</td>
+								<td>
+									<img src="icons/Arrow - Right Circle.svg" />
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div class="page-ctn">
+					<img src="icons/disabled.svg" width="32px" height="32px" />
+					<div class="box">
+						<p>1</p>
+					</div>
+					<div class="box">
+						<p>2</p>
+					</div>
+					<div class="box">
+						<p>...</p>
+					</div>
+					<div class="box">
+						<p>9</p>
+					</div>
+					<div class="box">
+						<p>10</p>
+					</div>
+					<div class="box">
+						<img class="box-img" src="Vector.svg" />
+					</div>
+				</div>
+			</div>
+			<div id="Sidenav" class="side-nav">
+				<div class="logo-ctn">
+					<p class="logo-name">Fastest Fingers</p>
+					<img
+						class="close"
+						onclick="closeNav()"
+						src="icons/Collapse.svg"
+					/>
+				</div>
+				<div class="menu-ctn">
+					<p class="menu-title">MENU</p>
+					<ul class="menus">
+						<a href="dashboard.html"><li  class="menu-items" href="dashboard2.html">Dashboard</li></a>
+						<a href="contest.html"><li class="menu-items">Contest</li></a>
+						<a href="users.html"><li class="menu-items">Users</li></a>
+						<a href="Adverts.html"><li class="menu-items">Adverts</li></a>
+						<a href="contactsprice.html"><li class="menu-items">Contacts Price</li></a>
+						<a href="accountsettings.html"><li class="menu-items">Account Settings</li></a>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- </div> -->
+		<script src="script.js"></script>
+	</body>
+</html>

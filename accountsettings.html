@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="accountsettings.css" />
+	</head>
+	<body>
+		<div class="page">
+			<div id="Container" class="container">
+				<div class="fixed-nav">
+					<div class="navbar">
+						<div class="page-title">
+							<h1>Account Settings</h1>
+						</div>
+						<div class="user-ctn">
+							<p>Hello, stella</p>
+							<img src="icons/image 1.svg" />
+							<img
+								onclick="openNav()"
+								src="icons/Arrow - Down 2.svg"
+							/>
+						</div>
+					</div>
+				</div>
+				<div class="inner-ctn">
+					
+					</div>
+					
+					<div class="second-rec">
+						<div class="change-ctn">
+							<p class="change">Change Your Password</p>
+						</div>
+						<form>
+						<div class="current-div">
+							<p class="current">Current Password</p>
+							<div  class="input1-div">
+								<input id="input-el" class="current-ps" type="password" placeholder="Enter Curent Password">
+								<p id="show-el" class="show-ps" onclick="showPass()">show</p>
+							</div>
+						</div>
+						<div class="current-div">
+							<p class="current">New Password</p>
+							<div class="input1-div">
+								<input id="input-el2" class="current-ps" type="password" placeholder="Enter New Password">
+								<p class="show-ps" onclick="showPass2()">show</p>
+							</div>
+						</div>
+						<div class="current-div">
+							<p class="current">Confirm Password</p>
+							<div class="input1-div">
+								<input id="input-el3" class="current-ps" type="password" placeholder="Confirm Password">
+								<p class="show-ps" onclick="showPass3()">show</p>
+							</div>
+						</div>
+						<div class="sav-ctn">
+							<button class="save">Save Changes</button>
+						</div>
+						</form>
+					</div>
+				
+				</div>
+			</div>
+			<div id="Sidenav" class="side-nav">
+				<div class="logo-ctn">
+					<p class="logo-name">Fastest Fingers</p>
+					<img
+						class="close"
+						onclick="closeNav()"
+						src="icons/Collapse.svg"
+					/>
+				</div>
+				<div class="menu-ctn">
+					<p class="menu-title">MENU</p>
+					<ul class="menus">
+					<a href="dashboard.html"><li  class="menu-items" href="dashboard2.html">Dashboard</li></a>
+						<a href="contest.html"><li class="menu-items">Contest</li></a>
+						<a href="users.html"><li class="menu-items">Users</li></a>
+						<a href="Adverts.html"><li class="menu-items">Adverts</li></a>
+						<a href="contactsprice.html"><li class="menu-items">Contacts Price</li></a>
+						<a href="accountsettings.html"><li class="menu-items">Account Settings</li></a>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script src="accountsettings.js"></script>
+	</body>
+</html>

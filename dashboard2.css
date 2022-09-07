@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+
+* {
+	font-family: "Overpass", sans-serif;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+/* .fixed-nav {
+	posi
+	
+} */
+.navbar {
+	top: 0;
+	position: fixed;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 15px;
+	width: 83%;
+	background-color: white;
+	border-bottom: 1px solid #00102d4e;
+}
+.container {
+	margin-left: 17%;
+	width: 83%;
+}
+
+.user-ctn {
+	display: flex;
+	gap: 7px;
+	align-items: center;
+	margin-right: 30px;
+}
+
+/* nav ul {
+	display: inline-block;
+	list-style: none;
+	margin-right: 0px;
+	overflow: hidden;
+
+	position: relative;
+	text-align: right;
+} */
+
+p {
+	display: inline-block;
+	text-decoration: none;
+	color: #555;
+	cursor: pointer;
+}
+/*----------------------Total div---------------------------------*/
+
+.inner-ctn {
+	padding: 0 40px;
+	margin-top: 120px;
+}
+
+/*---------------------------second-rec------------------------------------*/
+
+.second-rec {
+	width: 90%;
+	height: fit-content;
+	margin: auto;
+	background-color: white;
+	background: #ffffff;
+	border: 1px solid #e1edfe;
+	border-radius: 8px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	align-items: center;
+	padding: 30px;
+}
+.arrow-div {
+	align-items: center;
+	display: flex;
+	gap: 10px;
+	margin-bottom: 48px;
+}
+.arrow-div p {
+	font-family: "Overpass";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: #75759e;
+}
+.user-info {
+	font-family: "Overpass";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+    margin-bottom: 20px;
+	color: #f1aa83;
+}
+hr {
+    border: none;
+    border-bottom: 0.5px solid #E7E7E7;
+    margin-bottom: 30px;
+}
+table {
+	width: 100%;
+    margin-bottom: 30px;
+}
+tr {
+	height: 30px;
+}
+th {
+	text-align: left;
+    width: 25%;
+	font-family: "Overpass";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;
+}
+td {
+	text-align: left;
+    width: 25%;
+	font-family: "Overpass";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #75759e;
+}
+.recent {
+	font-family: "Overpass";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	margin-bottom: 20px;
+	color: #f1aa83;
+}
+.status-div {
+	margin-top: 40px;
+	display: grid;
+}
+.status {
+	font-family: "Overpass";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;
+	color: #00102d;
+	margin-bottom: 10px;
+}
+.completed {
+	font-family: "Overpass";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #ff3b30;
+	margin-bottom: 40px;
+}
+.transaction {
+	font-family: "Overpass";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #f1aa83;
+    margin-bottom: 20px;
+}
+.section-div {
+    margin-left: 30px;
+}
+/*-----------------------------side-nav---------------------*/
+.logo-ctn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 7px;
+	height: 80px;
+}
+
+.logo-name {
+	font-family: "Rubik", sans-serif;
+	font-weight: 500;
+	color: #fff;
+	font-size: 20px;
+}
+.side-nav {
+	position: fixed;
+	width: 17%;
+	height: 100vh;
+	left: 0px;
+	top: 0px;
+	background: #00102d;
+}
+
+.menu-title {
+	font-family: "Rubik", sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	margin-bottom: 20px;
+	color: #476da5;
+	padding-left: 30px;
+}
+
+.menu-items {
+	font-weight: 300;
+	list-style: none;
+	padding: 15px 0;
+	padding-left: 30px;
+	color: #fff;
+}
+
+.menu-items:hover {
+	color: #f1aa83;
+	cursor: pointer;
+	background-color: #f1aa8323;
+	border-left: 4px solid #f1aa83;
+}
+.sid-rec {
+	width: 100%;
+	height: 42px;
+}
+.side-nav h1 {
+	color: white;
+	font-family: "Rubik";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+/*--------------------------page-ctn-----------------------------------*/
+
+.page-ctn {
+	align-items: center;
+	display: flex;
+	margin-left: 73%;
+	margin-top: 34px;
+	margin-bottom: 30px;
+}
+.box {
+	width: 32px;
+	height: 32px;
+	border-radius: 4px;
+	background: #ffffff;
+	border: 1px solid #00102d;
+	box-sizing: border-box;
+	margin-left: 5px;
+	text-align: center;
+}
+.box p {
+	font-family: "Overpass";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 8px;
+}
+.box-img {
+	padding-top: 8px;
+}

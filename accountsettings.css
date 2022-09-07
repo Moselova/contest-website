@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+
+* {
+	font-family: "Overpass", sans-serif;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+/* .fixed-nav {
+	posi
+	
+} */
+.navbar {
+	top: 0;
+	position: fixed;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 15px;
+	width: 83%;
+	background-color: white;
+	border-bottom: 1px solid #00102d4e;
+}
+.container {
+	margin-left: 17%;
+	width: 83%;
+}
+
+.user-ctn {
+	display: flex;
+	gap: 7px;
+	align-items: center;
+	margin-right: 30px;
+}
+
+/* nav ul {
+	display: inline-block;
+	list-style: none;
+	margin-right: 0px;
+	overflow: hidden;
+
+	position: relative;
+	text-align: right;
+} */
+
+p {
+	display: inline-block;
+	text-decoration: none;
+	color: #555;
+	cursor: pointer;
+}
+/*----------------------Total div---------------------------------*/
+
+.inner-ctn {
+	padding: 0 40px;
+	margin-top: 120px;
+}
+
+.small-rec {
+	text-align: center;
+}
+.textdiv p {
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17.72px;
+}
+.textdiv h2 {
+	color: white;
+	font-size: 24px;
+	font-weight: 600;
+}
+.text-flex {
+	display: flex;
+	align-items: center;
+	width: 85%;
+	height: 107px;
+	background: #00102d;
+	margin-top: 10px;
+	border-radius: 8px;
+	box-shadow: 0px 4px 16px rgba(189, 205, 236, 0.6);
+}
+/*---------------------------second-rec------------------------------------*/
+
+.second-rec {
+	width: 90%;
+	height: fit-content;
+	background-color: white;
+	background: #ffffff;
+	border: 1px solid #e1edfe;
+	border-radius: 8px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	align-items: center;
+	margin-left: 40px;
+}
+form {
+	margin: auto;
+	width: 30%;
+}
+.change-ctn {
+	margin-top: 40px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.change {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 30px;
+	align-items: center;
+	color: #4a6495;
+}
+.current-div {
+	margin-bottom: 20px;
+}
+.current {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #00102d;
+	margin-bottom: 10px;
+}
+.input1-div {
+	width: 400px;
+	height: 70px;
+	left: 644px;
+	top: 359px;
+	border: 1px solid #e1edfe;
+	border-radius: 8px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 10px;
+}
+.current-ps {
+	height: 70px;
+	width: 100%;
+	border: none;
+	padding-left: 10px;
+}
+.show-ps {
+	color: #818181;
+	font-weight: 400;
+	font-size: 12px;
+}
+.sav-ctn {
+	margin-top: 80px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.save {
+	width: 252px;
+	height: 45px;
+	background: #f1aa83;
+	border-radius: 8px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	
+	text-align: center;
+	color: #ffffff;
+}
+/*-----------------------------side-nav---------------------*/
+.logo-ctn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 7px;
+	height: 80px;
+}
+
+.logo-name {
+	font-family: "Rubik", sans-serif;
+	font-weight: 500;
+	color: #fff;
+	font-size: 20px;
+}
+.side-nav {
+	position: fixed;
+	width: 17%;
+	height: 100vh;
+	left: 0px;
+	top: 0px;
+	background: #00102d;
+}
+
+.menu-title {
+	font-family: "Rubik", sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	margin-bottom: 20px;
+	color: #476da5;
+	padding-left: 30px;
+}
+
+.menu-items {
+	font-weight: 300;
+	list-style: none;
+	padding: 15px 0;
+	padding-left: 30px;
+	color: #fff;
+}
+
+.menu-items:hover {
+	color: #f1aa83;
+	cursor: pointer;
+	background-color: #f1aa8323;
+	border-left: 4px solid #f1aa83;
+}
+.sid-rec {
+	width: 100%;
+	height: 42px;
+}
+.side-nav h1 {
+	color: white;
+	font-family: "Rubik";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+/*--------------------------page-ctn-----------------------------------*/
+
+.page-ctn {
+	align-items: center;
+	display: flex;
+	margin-left: 73%;
+	margin-top: 34px;
+	margin-bottom: 30px;
+}
+.box {
+	width: 32px;
+	height: 32px;
+	border-radius: 4px;
+	background: #ffffff;
+	border: 1px solid #00102d;
+	box-sizing: border-box;
+	margin-left: 5px;
+	text-align: center;
+}
+.box p {
+	font-family: "Overpass";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 8px;
+}
+.box-img {
+	padding-top: 8px;
+}
