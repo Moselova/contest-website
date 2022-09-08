@@ -22,6 +22,8 @@
 	width: 83%;
 	background-color: white;
 	border-bottom: 1px solid #00102d4e;
+	
+	
 }
 .container {
 	margin-left: 17%;
@@ -51,45 +53,16 @@ p {
 	color: #555;
 	cursor: pointer;
 }
-/*----------------------Total div---------------------------------*/
 
-.inner-ctn {
-	padding: 0 40px;
-	margin-top: 120px;
-}
-.textdiv {
-	border-right: 1px solid#E2E2EA;
-	text-align: center;
-	width: 237.5px;
-}
-.small-rec {
-	text-align: center;
-}
-.textdiv p {
-	color: white;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 17.72px;
-}
-.textdiv h2 {
-	color: white;
-	font-size: 24px;
-	font-weight: 600;
-}
-.text-flex {
-	display: flex;
-	align-items: center;
-	width: 85%;
-	height: 107px;
-	background: #00102d;
-	margin-top: 10px;
-	border-radius: 8px;
-	box-shadow: 0px 4px 16px rgba(189, 205, 236, 0.6);
-}
 /*---------------------------second-rec------------------------------------*/
-
+.inner-ctn {
+    margin-top: 140px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
 .second-rec {
-	width: 1092px;
+   
+	width: 90%;
 	height: 176px;
 	background-color: white;
 	background: #ffffff;
@@ -108,17 +81,17 @@ form {
 	margin-bottom: 20px;
 	font-weight: 400;
 	font-size: 15px;
+    gap: 230px;
 }
-.text-wrapper p {
-	margin-right: 200px;
-}
+
 .input-div {
 	display: flex;
 	margin-left: 20px;
-	width: 100%;
+	width: fit-content;
 	align-items: center;
+    gap: 10px;
 }
-.search-div {
+.search-div{
 	width: 384px;
 	height: 46px;
 	display: flex;
@@ -134,7 +107,7 @@ form {
 	padding-left: 20px;
 	border: none;
 }
-.search-img {
+.search-img{
 	padding-left: 10px;
 }
 .date {
@@ -163,20 +136,28 @@ form {
 	font-weight: 500;
 	font-size: 13px;
 }
+.edit {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 /*-------------------------big rec---------------------------------*/
 .big-rec {
-	width: 1092p;
+	width:  100%;
 	height: 402px;
 	border-radius: 8px;
 }
 table {
 	border-collapse: collapse;
 	width: 100%;
+   
 }
 tr {
 	height: 64px;
+     
 }
 th {
+     margin-left: 30px;
 	text-align: left;
 	padding: 8px;
 	background: #f5f8ff;
@@ -185,25 +166,25 @@ th {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 20px;
-	margin: 50px;
+	margin: 30px;
 }
 td {
 	text-align: left;
-	padding: 8px;
+	padding: 3px;
 	font-family: "Overpass";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20.26px;
 	align-items: center;
-	margin: 50px;
-	color: #75759e;
+	margin: 10px;
+	color: #75759E;
 }
 .active {
-	color: #4cd964;
+	color: #4CD964;
 }
 .completed {
-	color: #ff3b30;
+	color: #FF3B30;
 }
 .arrow {
 	border-radius: 50%;
@@ -298,20 +279,21 @@ a:active {
 .box {
 	width: 32px;
 	height: 32px;
-	border-radius: 4px;
-	background: #ffffff;
-	border: 1px solid #00102d;
+    border-radius: 4px;
+	background: #FFFFFF;
+	border: 1px solid #00102D;
 	box-sizing: border-box;
 	margin-left: 5px;
 	text-align: center;
 }
-.box p {
-	font-family: "Overpass";
+ .box p {
+	font-family: 'Overpass';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 14px;
 	text-align: center;
 	padding-top: 8px;
+	
 }
 .box-img {
 	padding-top: 8px;

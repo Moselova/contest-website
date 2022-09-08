@@ -5,18 +5,15 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<link rel="stylesheet" href="contest.css" />
+		<link rel="stylesheet" href="adverts.css" />
 	</head>
 	<body>
-		<div class="page">
+		    	<div class="page">
 			<div id="Container" class="container">
 				<div class="fixed-nav">
 					<div class="navbar">
 						<div class="page-title">
-							<h1>CONTESTS</h1>
-							<button class="create-btn" onclick="openForm()">
-								Create New Contest
-							</button>
+							<h1>Adverts</h1>
 						</div>
 						<div class="user-ctn">
 							<p>Hello, stella</p>
@@ -32,18 +29,18 @@
 					<div class="recta-div">
 						<div class="text-flex">
 							<div class="textdiv">
-								<p>Completed Contests</p>
+								<p>Total users</p>
 								<h2>700</h2>
 							</div>
 							<div class="textdiv">
-								<p>Active Contest</p>
+								<p>Total Winners</p>
 								<h2>52</h2>
 							</div>
-							<div class="textdiv">
-								<p>Total Winners</p>
-								<h2>912</h2>
-							</div>
+							
+							
 						</div>
+					</div>
+					
 					</div>
 					<div class="second-rec">
 						<form>
@@ -89,12 +86,10 @@
 					<div class="big-rec">
 						<table>
 							<tr>
-								<th>User Id</th>
-								<th>Username</th>
-								<th>Contest name</th>
-								<th>Total Price</th>
-								<th>Start Date/Time</th>
-								<th>Contest Status</th>
+								<th>Full Name</th>
+								<th>Email Address</th>
+								<th>Contest Won</th>
+								<th>Coin Balance</th>
 								<th></th>
 							</tr>
 							<tr>
@@ -102,10 +97,11 @@
 								<td>Mr Sorosoke</td>
 								<td>Midnight Contest</td>
 								<td>N300,000</td>
-								<td>16 Apr 2021, 00:00</td>
-								<td class="active">Active</td>
 								<td>
-									<img src="icons/Arrow - Right Circle.svg" />
+									<a href="dashboard2.html"
+										><img
+											src="icons/Arrow - Right Circle.svg"
+									/></a>
 								</td>
 							</tr>
 							<tr>
@@ -113,8 +109,6 @@
 								<td>Sukrebaba</td>
 								<td>Midday Contest</td>
 								<td>N800,000</td>
-								<td>26 Oct-2020, 00:00</td>
-								<td class="completed">Completed</td>
 								<td>
 									<img src="icons/Arrow - Right Circle.svg" />
 								</td>
@@ -124,8 +118,6 @@
 								<td>Slyqueen</td>
 								<td>Night Time Contest</td>
 								<td>N50,000</td>
-								<td>09 Oct 2020, 00:00</td>
-								<td class="active">Active</td>
 								<td>
 									<img src="icons/Arrow - Right Circle.svg" />
 								</td>
@@ -135,8 +127,6 @@
 								<td>Twitterman</td>
 								<td>Independence Contest</td>
 								<td>N750,000</td>
-								<td>01 May 2021, 00:00</td>
-								<td class="completed">Completed</td>
 								<td>
 									<img src="icons/Arrow - Right Circle.svg" />
 								</td>
@@ -146,8 +136,7 @@
 								<td>Alayebambam</td>
 								<td>Weekend Contest</td>
 								<td>N90,000</td>
-								<td>09 Jun 2021, 00:00</td>
-								<td class="active">Active</td>
+								
 								<td>
 									<img src="icons/Arrow - Right Circle.svg" />
 								</td>
@@ -178,7 +167,6 @@
 					</div>
 				</div>
 			</div>
-
 			<div id="Sidenav" class="side-nav">
 				<div class="logo-ctn">
 					<p class="logo-name">Fastest Fingers</p>
@@ -206,7 +194,7 @@
 							><li class="menu-items">Adverts</li></a
 						>
 						<a href="coinspricing.html"
-							><li class="menu-items">Contacts Price</li></a
+							><li class="menu-items">Coins Pricing</li></a
 						>
 						<a href="accountsettings.html"
 							><li class="menu-items">Account Settings</li></a
@@ -214,101 +202,6 @@
 					</ul>
 				</div>
 			</div>
-			<div id="popup-el" class="popup-bg" onclick="closepopup()">
-				<div id="nopop" class="new-contest-ctn" onclick="noclose()">
-					<p class="contest-p">NEW CONTEST</p>
-					<div class="form">
-						<p>Contest Name</p>
-						<input
-							class="contest-name"
-							placeholder="Enter Contest Name"
-						/>
-						<div class="div-start">
-							<p>Start Date</p>
-							<p>Start Time</p>
-						</div>
-						<div class="enter-ctn">
-							<div class="div-please">
-								<input
-									class="please-enter"
-									placeholder="Please enter"
-								/>
-								<img
-									src="icons/Calendar.svg"
-									width="15px"
-									height="16.67px"
-								/>
-							</div>
-							<div class="div-please">
-								<input
-									class="please-enter"
-									placeholder="Please enter"
-								/>
-								<img
-									src="icons/Time Circle.svg"
-									width="16.67px"
-									height="16.67px"
-								/>
-							</div>
-						</div>
-						<div class="div-start-2">
-							<p>Enter Winning Numbers</p>
-							<p>Repeat?</p>
-						</div>
-						<div class="enter-ctn">
-							<div class="div-please">
-								<input
-									class="please-enter"
-									placeholder="Please enter"
-								/>
-							</div>
-							<div class="div-please">
-								<select class="select-please">
-									<option>Select Please</option>
-								</select>
-							</div>
-						</div>
-						<div class="flexer">
-							<p>Entry Cost</p>
-							<p class="margin-1">Total Price</p>
-						</div>
-						<div class="total-div">
-							<div class="div-none">
-								<img
-									clas
-									src="icons/sun.svg"
-									width="15px"
-									height="16.67px"
-								/>
-								<input
-									class="please-ent"
-									placeholder="Please enter"
-								/>
-							</div>
-							<div class="div-none">
-								<p>$</p>
-								<input
-									class="please-ent"
-									placeholder="Please enter"
-								/>
-							</div>
-						</div>
-						<p>Your Message</p>
-						<div class="write-ctn">
-							<input
-								class="writenn-ctn"
-								placeholder="Please Enter"
-							/>
-						</div>
-						<div class="button-wrap-">
-							<button class="create-final">
-								Create New Contest
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
-		<script src="contest.js"></script>
 	</body>
 </html>

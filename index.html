@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<link rel="stylesheet" href="createnew.css" />
+		<link rel="stylesheet" href="dashboard.css" />
 	</head>
 	<body>
 		<div class="page">
@@ -13,10 +13,7 @@
 				<div class="fixed-nav">
 					<div class="navbar">
 						<div class="page-title">
-							<h1>CONTESTS</h1>
-							<button class="create-btn" onclick="openForm()">
-								Create New Contest
-							</button>
+							<h1>DASHBOARD</h1>
 						</div>
 						<div class="user-ctn">
 							<p>Hello, stella</p>
@@ -32,16 +29,40 @@
 					<div class="recta-div">
 						<div class="text-flex">
 							<div class="textdiv">
-								<p>Completed Contests</p>
+								<p>Total users</p>
 								<h2>700</h2>
 							</div>
 							<div class="textdiv">
-								<p>Active Contest</p>
-								<h2>52</h2>
+								<p>Total Contests</p>
+								<h2>100</h2>
+							</div>
+							<div class="textdiv">
+								<p>Total Active contestss</p>
+								<h2>200</h2>
 							</div>
 							<div class="textdiv">
 								<p>Total Winners</p>
-								<h2>912</h2>
+								<h2>200</h2>
+							</div>
+						</div>
+					</div>
+					<div class="recta-div">
+						<div class="text-flex">
+							<div class="textdiv">
+								<p>Total Price</p>
+								<h2>700</h2>
+							</div>
+							<div class="textdiv">
+								<p>Total Price won by contenstants</p>
+								<h2>100</h2>
+							</div>
+							<div class="textdiv">
+								<p>Total Entry Cost</p>
+								<h2>200</h2>
+							</div>
+							<div class="textdiv">
+								<p>Total Losers</p>
+								<h2>200</h2>
 							</div>
 						</div>
 					</div>
@@ -105,7 +126,10 @@
 								<td>16 Apr 2021, 00:00</td>
 								<td class="active">Active</td>
 								<td>
-									<img src="icons/Arrow - Right Circle.svg" />
+									<a href="dashboard2.html"
+										><img
+											src="icons/Arrow - Right Circle.svg"
+									/></a>
 								</td>
 							</tr>
 							<tr>
@@ -178,7 +202,6 @@
 					</div>
 				</div>
 			</div>
-
 			<div id="Sidenav" class="side-nav">
 				<div class="logo-ctn">
 					<p class="logo-name">Fastest Fingers</p>
@@ -191,108 +214,31 @@
 				<div class="menu-ctn">
 					<p class="menu-title">MENU</p>
 					<ul class="menus">
-						<a href="dashboard.html"><li  class="menu-items" href="dashboard2.html">Dashboard</li></a>
-						<a href="contest.html"><li class="menu-items">Contest</li></a>
-						<a href="users.html"><li class="menu-items">Users</li></a>
-						<a href="Adverts.html"><li class="menu-items">Adverts</li></a>
-						<a href="contactsprice.html"><li class="menu-items">Contacts Price</li></a>
-						<a href="accountsettings.html"><li class="menu-items">Account Settings</li></a>
+						<a href="/"
+							><li class="menu-items" href="dashboard2.html">
+								Dashboard
+							</li></a
+						>
+						<a href="contest.html"
+							><li class="menu-items">Contest</li></a
+						>
+						<a href="users.html"
+							><li class="menu-items">Users</li></a
+						>
+						<a href="Adverts.html"
+							><li class="menu-items">Adverts</li></a
+						>
+						<a href="coinspricing.html"
+							><li class="menu-items">Coins Pricing </li></a
+						>
+						<a href="accountsettings.html"
+							><li class="menu-items">Account Settings</li></a
+						>
 					</ul>
 				</div>
 			</div>
-			<div id="popup-el" class="popup-bg">
-				<div class="new-contest-ctn" onclick.stop>
-					<p class="contest-p">NEW CONTEST</p>
-					<div class="form">
-						<p>Contest Name</p>
-						<input
-							class="contest-name"
-							placeholder="Enter Contest Name"
-						/>
-						<div class="div-start">
-							<p>Start Date</p>
-							<p>Start Time</p>
-						</div>
-						<div class="enter-ctn">
-							<div class="div-please">
-								<input
-									class="please-enter"
-									placeholder="Please enter"
-								/>
-								<img
-									src="icons/Calendar.svg"
-									width="15px"
-									height="16.67px"
-								/>
-							</div>
-							<div class="div-please">
-								<input
-									class="please-enter"
-									placeholder="Please enter"
-								/>
-								<img
-									src="icons/Time Circle.svg"
-									width="16.67px"
-									height="16.67px"
-								/>
-							</div>
-						</div>
-						<div class="div-start-2">
-							<p>Enter Winning Numbers</p>
-							<p>Repeat?</p>
-						</div>
-						<div class="enter-ctn">
-							<div class="div-please">
-								<input
-									class="please-enter"
-									placeholder="Please enter"
-								/>
-							</div>
-							<div class="div-please">
-								<select class="select-please">
-									<option>Select Please</option>
-								</select>
-							</div>
-						</div>
-						<div class="flexer">
-							<p>Entry Cost</p>
-							<p class="margin-1">Total Price</p>
-						</div>
-						<div class="total-div">
-							<div class="div-none">
-								<img
-									clas
-									src="icons/sun.svg"
-									width="15px"
-									height="16.67px"
-								/>
-								<input
-									class="please-ent"
-									placeholder="Please enter"
-								/>
-							</div>
-							<div class="div-none">
-								<p>$</p>
-								<input
-									class="please-ent"
-									placeholder="Please enter"
-								/>
-							</div>
-						</div>
-						<p>Your Message</p>
-						<div class="write-ctn">
-							<input
-								class="writenn-ctn"
-								placeholder="Please Enter"
-							/>
-						</div>
-						<div class="button-wrap-">
-						<button class="create-final">Create New Contest</button>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
-		<script src="createnew.js"></script>
+		<!-- </div> -->
+		<script src="script.js"></script>
 	</body>
 </html>
