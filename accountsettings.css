@@ -270,3 +270,48 @@ a:active {
 .box-img {
 	padding-top: 8px;
 }
+/*----------------------------media query----------------------*/
+@media screen and (max-width: 480px)  {
+.container {
+		width: 100%;
+		margin: 0px;
+		height: fit-content;
+	}
+	.menu-icon {
+		display: block;
+	}
+	.page-ctn {
+		width: 100%;
+		margin-left: 0 	;
+
+		align-items: flex-end;
+	}
+	.user-ctn {
+		display: none;
+	}
+	.second-rec {
+		width: 100%;
+		margin: 0;
+	}
+	.navbar {
+		width: 95%;
+		justify-content: space-between;
+		margin: 0px;
+		display: flex;
+		gap: 150px;
+		align-items: center;
+		z-index: 20;
+	}
+	.side-nav {
+		display: none;
+	}
+	form {
+		width: 90%;
+	}
+	.input1-div {
+		width: 100%;
+	}
+	.sav-ctn {
+		margin-top: 20px;
+	}
+}
