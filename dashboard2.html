@@ -23,6 +23,11 @@
 								src="icons/Arrow - Down 2.svg"
 							/>
 						</div>
+                        <img
+							onclick="menutoogle()"
+							class="menu-icon"
+							src="icons/menu icon.png"
+						/>
 					</div>
 				</div>
 				<div class="inner-ctn">
@@ -132,21 +137,53 @@
 					<p class="logo-name">Fastest Fingers</p>
 					<img
 						class="close"
-						onclick="closeNav()"
 						src="icons/Collapse.svg"
 					/>
 				</div>
 				<div class="menu-ctn">
 					<p class="menu-title">MENU</p>
 					<ul class="menus">
-						<a href="/"><li  class="menu-items" href="dashboard2.html">Dashboard</li></a>
-						<a href="contest.html"><li class="menu-items">Contest</li></a>
-						<a href="users.html"><li class="menu-items">Users</li></a>
-						<a href="Adverts.html"><li class="menu-items">AdverCoins Pricing</li></a>
-						<a href="accountsettings.html"><li class="menu-items">Account Settings</li></a>
+							<a href="/"
+							><li class="menu-items" href="dashboard2.html">
+								Dashboard
+							</li></a
+						>
+						<a href="contest.html"
+							><li class="menu-items">Contest</li></a
+						>
+						<a href="users.html"
+							><li class="menu-items">Users</li></a
+						>
+						<a href="Adverts.html"
+							><li class="menu-items">Adverts</li></a
+						>
+						<a href="coinspricing.html"
+							><li class="menu-items">Coins Pricing</li></a
+						>
+						<a href="accountsettings.html"
+							><li class="menu-items">Account Settings</li></a
+						>
 					</ul>
 				</div>
 			</div>
 		</div>
+        <div href="javascript:void(0)" id="mySidenav" class="sidebar-bg" onclick="closeNav()">
+					<div class="sidenav-2">
+					 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img
+						class="close"
+						src="icons/Collapse.svg"
+					/><p class="back-white">Close</p></a>
+
+					<ul>
+ 						<a href="/"><li class="sec-">Dashboard</li></a>
+  						<a href="contest.html"><li class="sec-">Contest</li></a>
+ 						 <a href="users.html"><li class="sec-">Users</li></a>
+  						<a href="Adverts.html"><li class="sec-">Adverts</li></a>
+							<a href="coinspricing.html"><li class="sec-">Coins Pricing</li></a>
+						<a href="accountsettings.html"><li class="sec-">Account Settings</li></a>
+					</ul>
+				</div>
+        </div>
+        <script src="dashboard2.js"></script>
 </body>
 </html>

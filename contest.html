@@ -21,11 +21,13 @@
 						<div class="user-ctn">
 							<p>Hello, stella</p>
 							<img src="icons/image 1.svg" />
-							<img
-								onclick="openNav()"
-								src="icons/Arrow - Down 2.svg"
-							/>
+							<img src="icons/Arrow - Down 2.svg" />
 						</div>
+						<img
+							onclick="menutoogle()"
+							class="menu-icon"
+							src="icons/menu icon.png"
+						/>
 					</div>
 				</div>
 				<div class="inner-ctn">
@@ -42,6 +44,25 @@
 							<div class="textdiv">
 								<p>Total Winners</p>
 								<h2>912</h2>
+							</div>
+							<div class="arrow">
+								<svg
+									width="30"
+									height="30"
+									viewBox="0 0 18 18"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										opacity="0.4"
+										d="M8.99984 0.666494C13.5957 0.666494 17.3332 4.40483 17.3332 8.99983C17.3332 13.5948 13.5957 17.3332 8.99984 17.3332C4.40484 17.3332 0.666504 13.5948 0.666504 8.99983C0.666504 4.40483 4.40484 0.666494 8.99984 0.666494Z"
+										fill="#75759E"
+									/>
+									<path
+										d="M7.79782 5.48256C7.95699 5.48256 8.11699 5.5434 8.23865 5.66506L11.1445 8.55673C11.262 8.67423 11.3278 8.8334 11.3278 9.00006C11.3278 9.1659 11.262 9.32506 11.1445 9.44256L8.23865 12.3359C7.99449 12.5792 7.59949 12.5792 7.35532 12.3342C7.11199 12.0892 7.11282 11.6934 7.35699 11.4501L9.81782 9.00006L7.35699 6.55006C7.11282 6.30673 7.11199 5.91173 7.35532 5.66673C7.47699 5.5434 7.63782 5.48256 7.79782 5.48256Z"
+										fill="#ffffff"
+									/>
+								</svg>
 							</div>
 						</div>
 					</div>
@@ -188,7 +209,6 @@
 					<p class="logo-name">Fastest Fingers</p>
 					<img
 						class="close"
-						onclick="closeNav()"
 						src="icons/Collapse.svg"
 					/>
 				</div>
@@ -313,6 +333,21 @@
 				</div>
 			</div>
 		</div>
+			<div href="javascript:void(0)" id="mySidenav" class="sidebar-bg" onclick="closeNav()">
+					<div class="sidenav-2">
+					 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img
+						class="close"
+						src="icons/Collapse.svg"
+					/><p class="back-white">Close</p</a>
+					<ul>
+ 						<a href="/"><li class="sec-">Dashboard</li></a>
+  						<a href="contest.html"><li class="sec-">Contest</li></a>
+ 						 <a href="users.html"><li class="sec-">Users</li></a>
+  						<a href="Adverts.html"><li class="sec-">Adverts</li></a>
+							<a href="coinspricing.html"><li class="sec-">Coins Pricing</li></a>
+						<a href="accountsettings.html"><li class="sec-">Account Settings</li></a>
+					</ul>
+				</div>
 		<script src="contest.js"></script>
 	</body>
 </html>

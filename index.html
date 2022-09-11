@@ -18,12 +18,13 @@
 						<div class="user-ctn">
 							<p>Hello, stella</p>
 							<img src="icons/image 1.svg" />
-							<img
-								onclick="openNav()"
-								src="icons/Arrow - Down 2.svg"
-							/>
+							<img src="icons/Arrow - Down 2.svg" />
 						</div>
-						<img class="menu-icon" src="icons/menu icon.png" />
+						<img
+						onclick="menutoogle()"
+							class="menu-icon"
+							src="icons/menu icon.png"
+						/>
 					</div>
 				</div>
 				<div class="inner-ctn">
@@ -248,11 +249,7 @@
 			<div id="Sidenav" class="side-nav">
 				<div class="logo-ctn">
 					<p class="logo-name">Fastest Fingers</p>
-					<img
-						class="close"
-						onclick="closeNav()"
-						src="icons/Collapse.svg"
-					/>
+					<img class="close" src="icons/Collapse.svg" />
 				</div>
 				<div class="menu-ctn">
 					<p class="menu-title">MENU</p>
@@ -281,6 +278,22 @@
 				</div>
 			</div>
 		</div>
+  <div href="javascript:void(0)" id="mySidenav" class="sidebar-bg" onclick="closeNav()">
+					<div class="sidenav-2">
+					 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img
+						class="close"
+						src="icons/Collapse.svg"
+					/><p class="back-white">Close</p></a>
+					<ul>
+ 						<a href="/"><li class="sec-">Dashboard</li>
+  						<a href="contest.html"><li class="sec-">Contest</li></a>
+ 						 <a href="users.html"><li class="sec-">Users</li></a>
+  						<a href="Adverts.html"><li class="sec-">Adverts</li></a>
+							<a href="coinspricing.html"><li class="sec-">Coins Pricing</li>
+						<a href="accountsettings.html"><li class="sec-">Account Settings</li></a>
+					</ul>
+				</div>
+
 		<!-- </div> -->
 		<script src="script.js"></script>
 	</body>
