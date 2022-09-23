@@ -586,8 +586,8 @@ a:active {
 		z-index: 20;
 	}
 	.form {
-		width: 100%;
-		margin: 0px;
+		width: 80%;
+		margin: 10px;
 	}
 	.text-wrapper {
 		width: 100%;
@@ -659,5 +659,8 @@ a:active {
 	.sidenav-2 a {
 		font-size: 18px;
 	}
-	
+	.new-contest-ctn {
+		width: 80%;
+		height: 80vh;
+	}
 }
