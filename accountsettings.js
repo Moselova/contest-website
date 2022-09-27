@@ -44,4 +44,13 @@ function menutoogle() {
 	document.getElementById("mySidenav").style.display = "flex";
 }
 
-
+/*------------form validation---------------*/
+  function Validate() {
+		var password = document.getElementById("input-el2").value;
+		var confirmPassword = document.getElementById("input-el3").value;
+		if (password != confirmPassword) {
+			alert("Passwords do not match.");
+			return false;
+		}
+		return true;
+  }

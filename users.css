@@ -93,7 +93,7 @@ p {
 /*---------------------------second-rec------------------------------------*/
 
 .second-rec {
-	width: 100%;
+	width: 90%;
 	background-color: white;
 	background: #ffffff;
 	border: 1px solid #e1edfe;
@@ -102,6 +102,7 @@ p {
 	margin-bottom: 50px;
 	align-items: center;
 	padding: 25px 20px;
+	margin-left: 40px;
 }
 .search_section p,
 .date_section p {
@@ -176,13 +177,14 @@ p {
 }
 /*-------------------------big rec---------------------------------*/
 .big-rec {
-	width: 1092p;
+	width: 100%;
 	height: fit-content;
 	border-radius: 8px;
 }
 table {
 	border-collapse: collapse;
-	width: 100%;
+	width: 90%;
+	margin-left: 40px;
 }
 tr {
 	height: 64px;
@@ -348,7 +350,7 @@ a:active {
 	width: 25%;
 	background-color: white;
 	padding-top: 20px;
-	transition: 0.10s;
+	transition: 0.1s;
 	/* z-index: 150; */
 	text-align: center;
 }
@@ -361,11 +363,10 @@ a:active {
 	cursor: pointer;
 	margin: auto;
 	list-style: none;
-    color: #ffffff
-	
+	color: #ffffff;
 }
 .sidenav-2 li a {
-	color: #ffffff
+	color: #ffffff;
 }
 .sidenav-2 li a:hover {
 	color: red;
@@ -388,8 +389,7 @@ a:active {
 	color: white;
 }
 /*------------------------media query section -------------------------*/
-@media screen and (max-width: 480px)  {
-	
+@media screen and (max-width: 480px) {
 	.container {
 		width: 100%;
 		margin: 0px;
@@ -400,7 +400,7 @@ a:active {
 	}
 	.page-ctn {
 		width: 100%;
-		margin-left: 0 	;
+		margin-left: 0;
 
 		align-items: flex-end;
 	}
@@ -484,10 +484,10 @@ a:active {
 	.search-div {
 		width: 100%;
 	}
-		.menu-icon {
+	.menu-icon {
 		display: block;
 	}
-		.search-div {
+	.search-div {
 		width: 100%;
 	}
 	.sidenav-2 {
