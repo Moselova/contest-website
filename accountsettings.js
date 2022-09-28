@@ -54,3 +54,6 @@ function menutoogle() {
 		}
 		return true;
   }
+/*-----------gsap------------*/
+gsap.to(".page-title", { duration: 1, x: 50 });
+gsap.to(".user-ctn", { duration: 1, x: 10 });

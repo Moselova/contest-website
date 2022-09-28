@@ -31,3 +31,6 @@ function closeNav() {
 function menutoogle() {
 	document.getElementById("mySidenav").style.display = "flex";
 }
+/*-----------gsap------------*/
+gsap.to(".page-title", { duration: 1, x: 50 });
+gsap.to(".user-ctn", { duration: 1, x: 10 });
