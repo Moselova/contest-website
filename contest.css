@@ -73,7 +73,9 @@ p {
 	cursor: pointer;
 }
 /*----------------------Total div---------------------------------*/
-
+.recta-div {
+	width: 70%;
+}
 .inner-ctn {
 	padding: 0 40px;
 	margin-top: 120px;
@@ -236,6 +238,7 @@ td {
 .arrow {
 	border-radius: 50%;
 	border-color: #555;
+	display: none;
 }
 /*-----------------------------side-nav---------------------*/
 a:link {
@@ -489,6 +492,7 @@ a:active {
 	height: 89px;
 	border: 1px solid #e1edfe;
 	outline: none;
+	border: none;
 }
 .button-wrap- {
 	justify-content: center;

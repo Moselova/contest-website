@@ -59,7 +59,9 @@ p {
 	cursor: pointer;
 }
 /*----------------------Total div---------------------------------*/
-
+.recta-div {
+	width: 70%;
+}
 .inner-ctn {
 	padding: 0 40px;
 	margin-top: 120px;
